@@ -48,11 +48,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+Answer: Relational Database is the database software itself, which manages storage, querying, updating, and, well, everything, 
+SQL is a language or a family of closely related languages or dialects which is typically used to query the Relational Database. 
+
 2. Why do tables need a `primary key`?
+
+Answer: Tables need primary keys to identify rows within the table
 
 3. What is the name given to a table column that references the primary key on another table.
 
+Answer: A foreign key that is used for creating links between tables
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+Answer: You will need multiple instances connecting to a table that can have multiple instances
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -60,12 +69,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
--   [ ] Create a forked copy of this project
--   [ ] Add your team lead as collaborator on Github
--   [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
--   [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
--   [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
--   [ ] Push commits: git push origin `<firstName-lastName>`
+-   [x] Create a forked copy of this project
+-   [x] Add your team lead as collaborator on Github
+-   [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+-   [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+-   [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+-   [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
@@ -104,6 +113,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
--   [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
--   [ ] Add your team lead as a reviewer on the pull-request
--   [ ] Your team lead will count the project as complete after receiving your pull-request
+-   [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+-   [x] Add your team lead as a reviewer on the pull-request
+-   [x] Your team lead will count the project as complete after receiving your pull-request
