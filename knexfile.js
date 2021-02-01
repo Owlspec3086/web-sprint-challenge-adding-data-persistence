@@ -1,3 +1,21 @@
+
+module.exports = {
+
+    development: {
+      client: 'sqlite3',
+      connection: {
+        filename: './data/projects.sqlite3'
+      },
+      pool: {
+        afterCreate: (conn, done) => {
+          // runs after a connection is made to the sqlite engine
+          conn.run('PRAGMA foreign_keys = ON', done); // turn on FK enforcement
+        }
+        },
+      useNullAsDefault:true
+    }
+}
+
 // do not make changes to this file (except to optionally add seeds)
 const sharedConfig = {
   client: 'sqlite3',
@@ -16,3 +34,4 @@ module.exports = {
     connection: { filename: './data/test.db3' },
   },
 };
+

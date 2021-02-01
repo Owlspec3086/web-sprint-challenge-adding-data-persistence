@@ -58,6 +58,24 @@ Your finished project must meet all of the following requirements:
   - [ ] `[POST] /api/resources`
     - Example of response body: `{"resource_id":1,"resource_name":"foo","resource_description":null}`
 
+
+Answer: Relational Database is the database software itself, which manages storage, querying, updating, and, well, everything, 
+SQL is a language or a family of closely related languages or dialects which is typically used to query the Relational Database. 
+
+2. Why do tables need a `primary key`?
+
+Answer: Tables need primary keys to identify rows within the table
+
+3. What is the name given to a table column that references the primary key on another table.
+
+Answer: A foreign key that is used for creating links between tables
+
+4. What do we need in order to have a _many to many_ relationship between two tables.
+
+Answer: You will need multiple instances connecting to a table that can have multiple instances
+
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+
   - [ ] `[GET] /api/resources`
     - Example of response body: `[{"resource_id":1,"resource_name":"foo","resource_description":null}]`
 
@@ -73,6 +91,7 @@ Your finished project must meet all of the following requirements:
     - Even though `task_completed` is stored as an integer, the API uses booleans when interacting with the client
     - Example of response body: `{"task_id":1,"task_description":"baz","task_notes":null,"task_completed":false,"project_id:1}`
 
+
   - [ ] `[GET] /api/tasks`
     - Even though `task_completed` is stored as an integer, the API uses booleans when interacting with the client
     - Each task must include `project_name` and `project_description`
@@ -80,7 +99,16 @@ Your finished project must meet all of the following requirements:
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
+
+-   [x] Create a forked copy of this project
+-   [x] Add your team lead as collaborator on Github
+-   [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+-   [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+-   [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+-   [x] Push commits: git push origin `<firstName-lastName>`
+=======
 ### Stretch Goals
+
 
 **IMPORTANT:** Work on stretch goals in a **new branch**. You can branch off `<firstName-lastName>` by executing `git checkout -b stretch`.
 
@@ -101,7 +129,13 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
+
+-   [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+-   [x] Add your team lead as a reviewer on the pull-request
+-   [x] Your team lead will count the project as complete after receiving your pull-request
+
 1. Explain the difference between Relational Databases and SQL.
 2. Why do tables need a Primary Key?
 3. What is the name given to a table column that references the Primary Key on another table?
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
